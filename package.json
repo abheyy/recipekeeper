@@ -1,10 +1,11 @@
 {
-  "name": "forkify-app",
+  "name": "recipekeeper-app",
   "version": "1.0.0",
   "description": "Recipe application",
+  "source": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html --dist-dir ./dist"
   },
   "author": "Anastasia Wartell",
   "license": "ISC",
